@@ -12,12 +12,7 @@
   --clr-neutral-700: #444;
   --clr-neutral-800: #222;
   --clr-neutral-900: #000;
-  
 
-
-
-  
-  
   --ff-primary: "Roboto", sans-serif;
   --ff-accent: "Playfair Display", sans-serif;
 }
@@ -29,6 +24,9 @@
 }
 
 body {
+  color: var(--clr-neutral-900);
+  background-color: var(--clr-neutral-000);
+
   font-family: var(--ff-primary);
   font-weight: 400;
   font-size: 1.3125rem;
@@ -136,6 +134,21 @@ footer {
 .bg-dark {
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
+}
+
+.round-full {
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px 1px;
+  border-radius: 1em;
+}
+
+.round-top {
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px 1px;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
 }
 
 /* .bg-primary h2,
